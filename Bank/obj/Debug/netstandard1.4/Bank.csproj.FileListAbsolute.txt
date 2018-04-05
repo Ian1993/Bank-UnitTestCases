@@ -1,0 +1,8 @@
+C:\Users\ianmnevi\source\repos\Bank-UnitTestCases\Bank\bin\Debug\netstandard1.4\Bank.deps.json
+C:\Users\ianmnevi\source\repos\Bank-UnitTestCases\Bank\bin\Debug\netstandard1.4\Bank.dll
+C:\Users\ianmnevi\source\repos\Bank-UnitTestCases\Bank\bin\Debug\netstandard1.4\Bank.pdb
+C:\Users\ianmnevi\source\repos\Bank-UnitTestCases\Bank\obj\Debug\netstandard1.4\Bank.csprojResolveAssemblyReference.cache
+C:\Users\ianmnevi\source\repos\Bank-UnitTestCases\Bank\obj\Debug\netstandard1.4\Bank.csproj.CoreCompileInputs.cache
+C:\Users\ianmnevi\source\repos\Bank-UnitTestCases\Bank\obj\Debug\netstandard1.4\Bank.AssemblyInfo.cs
+C:\Users\ianmnevi\source\repos\Bank-UnitTestCases\Bank\obj\Debug\netstandard1.4\Bank.dll
+C:\Users\ianmnevi\source\repos\Bank-UnitTestCases\Bank\obj\Debug\netstandard1.4\Bank.pdb
