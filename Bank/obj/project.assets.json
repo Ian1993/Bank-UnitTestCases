@@ -3703,19 +3703,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ianmnevi\\.nuget\\packages\\": {}
+    "C:\\Users\\ianmi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ianmnevi\\Desktop\\Bank-UnitTestCases\\Bank\\Bank.csproj",
+      "projectUniqueName": "C:\\Users\\ianmi\\source\\repos\\Bank-UnitTestCases\\Bank\\Bank.csproj",
       "projectName": "Bank",
-      "projectPath": "C:\\Users\\ianmnevi\\Desktop\\Bank-UnitTestCases\\Bank\\Bank.csproj",
-      "packagesPath": "C:\\Users\\ianmnevi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ianmnevi\\Desktop\\Bank-UnitTestCases\\Bank\\obj\\",
+      "projectPath": "C:\\Users\\ianmi\\source\\repos\\Bank-UnitTestCases\\Bank\\Bank.csproj",
+      "packagesPath": "C:\\Users\\ianmi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ianmi\\source\\repos\\Bank-UnitTestCases\\Bank\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ianmnevi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ianmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
