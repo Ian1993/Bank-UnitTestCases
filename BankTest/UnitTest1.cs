@@ -11,9 +11,11 @@ namespace BankTest
         public void Debit_WithValidAmount_UpdatesBalance()
         {
             // arrange  
+            
+
             double beginningBalance = 11.99;
             double debitAmount = 4.55;
-            double expected = 7.44;
+            double expected = 5.99;
             BankAccount account = new BankAccount("Mr. Bryan Walton", beginningBalance);
 
             // act  
@@ -23,6 +25,37 @@ namespace BankTest
             double actual = account.Balance;
             Assert.AreEqual(expected, actual, 0.001, "Account not debited correctly");
         }
+
+        [TestMethod]
+        public void Debit_WithINValidAmount_UpdatesBalance()
+        {
+            // arrange  
+            double beginningBalance = 5.99;
+            double debitAmount = 4.55;
+            double expected = -.01;
+            BankAccount account = new BankAccount("Mr. Bryan Walton", beginningBalance);
+
+            // act  
+            account.Debit(debitAmount);
+
+            // assert  
+            double actual = account.Balance;
+            Assert.AreEqual(expected, actual, 0.001, "Account not debited correctly");
+            double creditAmount = 4.55;
+            try
+            {
+                account.Credit(creditAmount);
+            }
+            catch (Exception e)
+            {
+                // assert  
+                StringAssert.Contains(e.Message, BankAccount.AccFrozen);
+                return;
+            }
+            Assert.Fail("No exception was thrown.");
+        }
+
+
 
         //unit test method  
         [TestMethod]

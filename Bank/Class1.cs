@@ -57,6 +57,13 @@ namespace BankAccountNS
             }
 
             m_balance -= amount; // intentionally incorrect code  
+
+            m_balance -= 1.45;
+
+            if (m_balance < 0)
+            {
+                FreezeAccount();
+            }
         }
 
         public void Credit(double amount)
